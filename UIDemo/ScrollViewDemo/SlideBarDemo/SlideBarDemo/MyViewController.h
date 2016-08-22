@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MyViewController : UIViewController
-
+@property (nonatomic, strong) NSString *title;
 @end

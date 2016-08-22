@@ -43,6 +43,7 @@
     for (int i=0; i<self.titleArray.count; i++) {
         MyViewController *myController = [[MyViewController alloc] init];
         [self.VCs addObject:myController];
+        myController.title = self.titleArray[i];
         [self.scrollView addSubview:myController.view];
         [self.controller addChildViewController:myController];
         myController.view.frame = CGRectMake(i * SCREEN_RECT.size.width, 0, SCREEN_RECT.size.width, SCREEN_RECT.size.height);
@@ -58,7 +59,7 @@
 
 - (void)scrollToIndex:(NSInteger)index
 {
-    [self.scrollView setContentOffset:CGPointMake(SCREEN_RECT.size.width * index, self.scrollView.contentOffset.y) animated:YES];
+    [self.scrollView setContentOffset:CGPointMake(SCREEN_RECT.size.width * index, self.scrollView.contentOffset.y) animated:NO];
 }
 
 @end

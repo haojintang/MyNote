@@ -38,7 +38,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CELL"];
     }
-    cell.textLabel.text = @"hello world";
+    cell.textLabel.text = self.title;
     return cell;
 }
 @end
