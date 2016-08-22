@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideScrollVCView.h"
 
-@interface SlideButtonScrollView : UIScrollView
-
-
+@interface SlideButtonScrollView : UIScrollView<MySlideViewDelegate>
+@property (nonatomic, weak)id<MySlideViewDelegate> delegate;
 - (instancetype)initWithFrame:(CGRect)frame AndTitles:(NSArray<NSString *> *) titleArray;
-
 
 @end

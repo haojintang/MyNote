@@ -16,6 +16,8 @@
 		7E842E911D6489A400AE00F4 /* SlideBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E842E901D6489A400AE00F4 /* SlideBarDemoTests.m */; };
 		7E842E9C1D6489A400AE00F4 /* SlideBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E842E9B1D6489A400AE00F4 /* SlideBarDemoUITests.m */; };
 		7E842EAB1D648A9200AE00F4 /* SlideButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E842EAA1D648A9200AE00F4 /* SlideButtonScrollView.m */; };
+		7EE88F161D6B303500D4F579 /* SlideScrollVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE88F151D6B303500D4F579 /* SlideScrollVCView.m */; };
+		7EE88F191D6B321B00D4F579 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE88F181D6B321B00D4F579 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		7E842E9D1D6489A400AE00F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E842EA91D648A9200AE00F4 /* SlideButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideButtonScrollView.h; sourceTree = "<group>"; };
 		7E842EAA1D648A9200AE00F4 /* SlideButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideButtonScrollView.m; sourceTree = "<group>"; };
+		7EE88F141D6B303500D4F579 /* SlideScrollVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideScrollVCView.h; sourceTree = "<group>"; };
+		7EE88F151D6B303500D4F579 /* SlideScrollVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideScrollVCView.m; sourceTree = "<group>"; };
+		7EE88F171D6B321B00D4F579 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		7EE88F181D6B321B00D4F579 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				7E842E7D1D6489A400AE00F4 /* ViewController.m */,
 				7E842EA91D648A9200AE00F4 /* SlideButtonScrollView.h */,
 				7E842EAA1D648A9200AE00F4 /* SlideButtonScrollView.m */,
+				7EE88F141D6B303500D4F579 /* SlideScrollVCView.h */,
+				7EE88F151D6B303500D4F579 /* SlideScrollVCView.m */,
+				7EE88F171D6B321B00D4F579 /* MyViewController.h */,
+				7EE88F181D6B321B00D4F579 /* MyViewController.m */,
 				7E842E7F1D6489A400AE00F4 /* Main.storyboard */,
 				7E842E821D6489A400AE00F4 /* Assets.xcassets */,
 				7E842E841D6489A400AE00F4 /* LaunchScreen.storyboard */,
@@ -278,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE88F191D6B321B00D4F579 /* MyViewController.m in Sources */,
 				7E842E7E1D6489A400AE00F4 /* ViewController.m in Sources */,
 				7E842EAB1D648A9200AE00F4 /* SlideButtonScrollView.m in Sources */,
+				7EE88F161D6B303500D4F579 /* SlideScrollVCView.m in Sources */,
 				7E842E7B1D6489A400AE00F4 /* AppDelegate.m in Sources */,
 				7E842E781D6489A400AE00F4 /* main.m in Sources */,
 			);
@@ -505,6 +517,7 @@
 				7E842EA21D6489A400AE00F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E842EA31D6489A400AE00F4 /* Build configuration list for PBXNativeTarget "SlideBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				7E842EA51D6489A400AE00F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E842EA61D6489A400AE00F4 /* Build configuration list for PBXNativeTarget "SlideBarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				7E842EA81D6489A400AE00F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
