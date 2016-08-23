@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PageScrollView1.h"
 #import "PageScrollView2.h"
+#import "PageScrollView3.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -58,6 +59,9 @@
     } else if (indexPath.row == 1){
         PageScrollView2 *view2ctr = [[PageScrollView2 alloc] init];
         [self presentViewController:view2ctr animated:YES completion:nil];
+    } else if (indexPath.row == 2) {
+        PageScrollView3 *view3ctr = [[PageScrollView3 alloc] init];
+        [self presentViewController:view3ctr animated:YES completion:nil];
     }
 }
 @end

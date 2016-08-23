@@ -17,6 +17,7 @@
 		21AB96071D60AE0C0079C7E5 /* ScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AB96061D60AE0C0079C7E5 /* ScrollViewDemoUITests.m */; };
 		21AB96161D60B0D00079C7E5 /* PageScrollView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AB96151D60B0D00079C7E5 /* PageScrollView1.m */; };
 		21AB96191D60BDE20079C7E5 /* PageScrollView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AB96181D60BDE20079C7E5 /* PageScrollView2.m */; };
+		21DFA7CC1D6C9BD700138D2C /* PageScrollView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DFA7CB1D6C9BD700138D2C /* PageScrollView3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		21AB96151D60B0D00079C7E5 /* PageScrollView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView1.m; sourceTree = "<group>"; };
 		21AB96171D60BDE20079C7E5 /* PageScrollView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollView2.h; sourceTree = "<group>"; };
 		21AB96181D60BDE20079C7E5 /* PageScrollView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView2.m; sourceTree = "<group>"; };
+		21DFA7CA1D6C9BD700138D2C /* PageScrollView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollView3.h; sourceTree = "<group>"; };
+		21DFA7CB1D6C9BD700138D2C /* PageScrollView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				21AB96151D60B0D00079C7E5 /* PageScrollView1.m */,
 				21AB96171D60BDE20079C7E5 /* PageScrollView2.h */,
 				21AB96181D60BDE20079C7E5 /* PageScrollView2.m */,
+				21DFA7CA1D6C9BD700138D2C /* PageScrollView3.h */,
+				21DFA7CB1D6C9BD700138D2C /* PageScrollView3.m */,
 				21AB95EA1D60AE0C0079C7E5 /* Main.storyboard */,
 				21AB95ED1D60AE0C0079C7E5 /* Assets.xcassets */,
 				21AB95EF1D60AE0C0079C7E5 /* LaunchScreen.storyboard */,
@@ -284,6 +289,7 @@
 				21AB95E91D60AE0C0079C7E5 /* ViewController.m in Sources */,
 				21AB95E61D60AE0C0079C7E5 /* AppDelegate.m in Sources */,
 				21AB96191D60BDE20079C7E5 /* PageScrollView2.m in Sources */,
+				21DFA7CC1D6C9BD700138D2C /* PageScrollView3.m in Sources */,
 				21AB95E31D60AE0C0079C7E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +516,7 @@
 				21AB960D1D60AE0C0079C7E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21AB960E1D60AE0C0079C7E5 /* Build configuration list for PBXNativeTarget "ScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				21AB96101D60AE0C0079C7E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21AB96111D60AE0C0079C7E5 /* Build configuration list for PBXNativeTarget "ScrollViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +534,7 @@
 				21AB96131D60AE0C0079C7E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
