@@ -15,6 +15,6 @@ move 操作，也要注意处理data中的数据顺序，使两者保持一致
 三、 看zone中的setting页面如何与plist结合
 四、 做一个headView，下拉展开的例子（headView上面有个小箭头，展开有动画，效果参考一下test04）
 五、 做一个可以下拉的tableView例子（数据从plist中加载），结合四来做，先做四
-	四五都做好了，见FoldableTable.动画明天补一下
+	四五都做好了，见FoldableTable.动画明天补一下(动画可以用transform来做，rotation，有单位矩阵变化和叠加效果两种，分别使用CGAffineTransformMakeRotation和CGAffineTransformRotate)
 六、看star的弹幕怎么做的
 
