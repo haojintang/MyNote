@@ -18,3 +18,6 @@ move 操作，也要注意处理data中的数据顺序，使两者保持一致
 	四五都做好了，见FoldableTable.动画明天补一下(动画可以用transform来做，rotation，有单位矩阵变化和叠加效果两种，分别使用CGAffineTransformMakeRotation和CGAffineTransformRotate)
 六、看star的弹幕怎么做的
 
+七、refresh table那个下拉动画效果
+如MyRefreshTable的Demo
+
