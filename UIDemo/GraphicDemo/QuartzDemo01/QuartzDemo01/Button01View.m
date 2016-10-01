@@ -6,9 +6,9 @@
 //  Copyright © 2016年 haojin. All rights reserved.
 //
 
-#import "MyView.h"
+#import "Button01View.h"
 
-@implementation MyView
+@implementation Button01View
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -19,6 +19,8 @@
     [self drawArc];
     [self drawBezier01];
     [self drawBezier02];
+    [self drawText];
+    [self drawImage];
 }
 
 //三角形
@@ -87,5 +89,25 @@
     [[UIColor redColor] setFill];
     CGContextDrawPath(context, kCGPathFillStroke);
 }
- 
+
+//文字绘制
+- (void)drawText
+{
+    CGRect rect = CGRectMake(15, 400, 200, 200);
+    NSString *text = @"this is my holiday homework for 2016,october 01,try my best to be better! 我相信自己可以的。一定要坚持。坚持就能看到曙光，你是可以的。";
+    UIColor *textColor = [UIColor redColor];
+    UIFont *font = [UIFont systemFontOfSize:14];
+    NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
+    style.alignment = NSTextAlignmentLeft;
+    [text drawInRect:rect withAttributes:@{NSFontAttributeName:font,NSForegroundColorAttributeName:textColor,NSParagraphStyleAttributeName:style}];
+    
+}
+
+- (void)drawImage
+{
+    UIImage *image = [UIImage imageNamed:@"1.png"];
+    [image drawAtPoint:CGPointMake(200, 0)];
+}
+
+
 @end

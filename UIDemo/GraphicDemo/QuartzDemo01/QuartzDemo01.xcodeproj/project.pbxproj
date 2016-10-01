@@ -15,7 +15,15 @@
 		212E77721D9827F700CA033D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212E77701D9827F700CA033D /* LaunchScreen.storyboard */; };
 		212E777D1D9827F700CA033D /* QuartzDemo01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E777C1D9827F700CA033D /* QuartzDemo01Tests.m */; };
 		212E77881D9827F700CA033D /* QuartzDemo01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E77871D9827F700CA033D /* QuartzDemo01UITests.m */; };
-		212E77971D9828ED00CA033D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E77961D9828ED00CA033D /* MyView.m */; };
+		212E77971D9828ED00CA033D /* Button01View.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E77961D9828ED00CA033D /* Button01View.m */; };
+		214F2BD61D9EAA6600415135 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 214F2BD51D9EAA6600415135 /* 1.png */; };
+		214F2BD91D9EAE2300415135 /* Button01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214F2BD81D9EAE2300415135 /* Button01ViewController.m */; };
+		214F2BDC1D9EB54F00415135 /* Button02View.m in Sources */ = {isa = PBXBuildFile; fileRef = 214F2BDB1D9EB54F00415135 /* Button02View.m */; };
+		21D492A01D9F5F7D00672A77 /* Button03View.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D4929F1D9F5F7D00672A77 /* Button03View.m */; };
+		21D492A31D9F64CC00672A77 /* Button04View.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D492A21D9F64CC00672A77 /* Button04View.m */; };
+		21D492A61D9F6A8D00672A77 /* Button05View.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D492A51D9F6A8D00672A77 /* Button05View.m */; };
+		21D492A91D9F710600672A77 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D492A81D9F710600672A77 /* RefreshViewController.m */; };
+		21D492AC1D9F715C00672A77 /* MyRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D492AB1D9F715C00672A77 /* MyRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +60,23 @@
 		212E77831D9827F700CA033D /* QuartzDemo01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzDemo01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212E77871D9827F700CA033D /* QuartzDemo01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzDemo01UITests.m; sourceTree = "<group>"; };
 		212E77891D9827F700CA033D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		212E77951D9828ED00CA033D /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		212E77961D9828ED00CA033D /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		212E77951D9828ED00CA033D /* Button01View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button01View.h; sourceTree = "<group>"; };
+		212E77961D9828ED00CA033D /* Button01View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button01View.m; sourceTree = "<group>"; };
+		214F2BD51D9EAA6600415135 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		214F2BD71D9EAE2300415135 /* Button01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button01ViewController.h; sourceTree = "<group>"; };
+		214F2BD81D9EAE2300415135 /* Button01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button01ViewController.m; sourceTree = "<group>"; };
+		214F2BDA1D9EB54F00415135 /* Button02View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button02View.h; sourceTree = "<group>"; };
+		214F2BDB1D9EB54F00415135 /* Button02View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button02View.m; sourceTree = "<group>"; };
+		21D4929E1D9F5F7D00672A77 /* Button03View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button03View.h; sourceTree = "<group>"; };
+		21D4929F1D9F5F7D00672A77 /* Button03View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button03View.m; sourceTree = "<group>"; };
+		21D492A11D9F64CC00672A77 /* Button04View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button04View.h; sourceTree = "<group>"; };
+		21D492A21D9F64CC00672A77 /* Button04View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button04View.m; sourceTree = "<group>"; };
+		21D492A41D9F6A8D00672A77 /* Button05View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button05View.h; sourceTree = "<group>"; };
+		21D492A51D9F6A8D00672A77 /* Button05View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button05View.m; sourceTree = "<group>"; };
+		21D492A71D9F710600672A77 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshViewController.h; path = ../RefreshViewController.h; sourceTree = "<group>"; };
+		21D492A81D9F710600672A77 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshViewController.m; path = ../RefreshViewController.m; sourceTree = "<group>"; };
+		21D492AA1D9F715C00672A77 /* MyRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRefreshView.h; sourceTree = "<group>"; };
+		21D492AB1D9F715C00672A77 /* MyRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRefreshView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +127,16 @@
 		212E77611D9827F700CA033D /* QuartzDemo01 */ = {
 			isa = PBXGroup;
 			children = (
+				214F2BDE1D9EC31900415135 /* resources */,
+				214F2BDD1D9EC2F900415135 /* MyViews */,
 				212E77651D9827F700CA033D /* AppDelegate.h */,
 				212E77661D9827F700CA033D /* AppDelegate.m */,
 				212E77681D9827F700CA033D /* ViewController.h */,
 				212E77691D9827F700CA033D /* ViewController.m */,
-				212E77951D9828ED00CA033D /* MyView.h */,
-				212E77961D9828ED00CA033D /* MyView.m */,
+				214F2BD71D9EAE2300415135 /* Button01ViewController.h */,
+				214F2BD81D9EAE2300415135 /* Button01ViewController.m */,
+				21D492A71D9F710600672A77 /* RefreshViewController.h */,
+				21D492A81D9F710600672A77 /* RefreshViewController.m */,
 				212E776B1D9827F700CA033D /* Main.storyboard */,
 				212E776E1D9827F700CA033D /* Assets.xcassets */,
 				212E77701D9827F700CA033D /* LaunchScreen.storyboard */,
@@ -143,6 +170,33 @@
 				212E77891D9827F700CA033D /* Info.plist */,
 			);
 			path = QuartzDemo01UITests;
+			sourceTree = "<group>";
+		};
+		214F2BDD1D9EC2F900415135 /* MyViews */ = {
+			isa = PBXGroup;
+			children = (
+				212E77951D9828ED00CA033D /* Button01View.h */,
+				212E77961D9828ED00CA033D /* Button01View.m */,
+				214F2BDA1D9EB54F00415135 /* Button02View.h */,
+				214F2BDB1D9EB54F00415135 /* Button02View.m */,
+				21D4929E1D9F5F7D00672A77 /* Button03View.h */,
+				21D4929F1D9F5F7D00672A77 /* Button03View.m */,
+				21D492A11D9F64CC00672A77 /* Button04View.h */,
+				21D492A21D9F64CC00672A77 /* Button04View.m */,
+				21D492A41D9F6A8D00672A77 /* Button05View.h */,
+				21D492A51D9F6A8D00672A77 /* Button05View.m */,
+				21D492AA1D9F715C00672A77 /* MyRefreshView.h */,
+				21D492AB1D9F715C00672A77 /* MyRefreshView.m */,
+			);
+			name = MyViews;
+			sourceTree = "<group>";
+		};
+		214F2BDE1D9EC31900415135 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				214F2BD51D9EAA6600415135 /* 1.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212E77721D9827F700CA033D /* LaunchScreen.storyboard in Resources */,
+				214F2BD61D9EAA6600415135 /* 1.png in Resources */,
 				212E776F1D9827F700CA033D /* Assets.xcassets in Resources */,
 				212E776D1D9827F700CA033D /* Main.storyboard in Resources */,
 			);
@@ -275,10 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212E77971D9828ED00CA033D /* MyView.m in Sources */,
+				212E77971D9828ED00CA033D /* Button01View.m in Sources */,
 				212E776A1D9827F700CA033D /* ViewController.m in Sources */,
+				214F2BDC1D9EB54F00415135 /* Button02View.m in Sources */,
+				21D492A01D9F5F7D00672A77 /* Button03View.m in Sources */,
+				21D492A31D9F64CC00672A77 /* Button04View.m in Sources */,
 				212E77671D9827F700CA033D /* AppDelegate.m in Sources */,
+				21D492A91D9F710600672A77 /* RefreshViewController.m in Sources */,
+				21D492AC1D9F715C00672A77 /* MyRefreshView.m in Sources */,
 				212E77641D9827F700CA033D /* main.m in Sources */,
+				214F2BD91D9EAE2300415135 /* Button01ViewController.m in Sources */,
+				21D492A61D9F6A8D00672A77 /* Button05View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +566,7 @@
 				212E778E1D9827F700CA033D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212E778F1D9827F700CA033D /* Build configuration list for PBXNativeTarget "QuartzDemo01Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +575,7 @@
 				212E77911D9827F700CA033D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212E77921D9827F700CA033D /* Build configuration list for PBXNativeTarget "QuartzDemo01UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +584,7 @@
 				212E77941D9827F700CA033D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
