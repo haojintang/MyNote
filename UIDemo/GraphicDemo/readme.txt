@@ -11,3 +11,5 @@
 	imagePicker
 	alertViewController
 	CIImage,CIFilter
+3. AnimateDemo01
+	动画圆形扩散的效果，（闪烁），伴随着view的移动
